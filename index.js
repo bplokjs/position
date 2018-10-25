@@ -274,7 +274,7 @@ var positionCalc = {
     }
 };
 
-function position($el, options) {
+function setPosition($el, options) {
     if (!options || !options.of) {
         return _position.apply(this, arguments);
     }
@@ -457,8 +457,8 @@ function position($el, options) {
  * @param {selector,string,array<dom>} 
  * @param {object}
  */
-module.exports = function (dom, option) {
-    return position($(dom), options);
+module.exports = function (dom, options) {
+    return setPosition($(dom), options);
 }
 
 
