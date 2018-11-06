@@ -1,6 +1,6 @@
 {
     "name": "bplokjs-position",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -21,7 +21,7 @@
     "homepage": "https://github.com/bplokjs/position#readme",
     "dependencies": {
         "bplokjs-dom-utils": "^1.0.2",
-        "bplokjs-jqlite": "^1.0.0"
+        "bplokjs-jqlite": "^1.0.1"
     },
     "devDependencies": {
         "@babel/core": "^7.1.2",
